@@ -1,0 +1,11 @@
+node_modules
+dist
+
+# sanity
+
+# web
+web/.next
+
+#misc
+out
+.DS_Store

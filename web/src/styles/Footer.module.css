@@ -1,0 +1,50 @@
+.footer {
+  font-family: 'Arvo';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 3rem;
+  background: #FCDDBC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.helpSection {
+  padding-bottom: 1.5rem;
+}
+
+.helpSection p {
+  padding-bottom: 0.5rem;
+}
+
+.helpSection strong {
+  font-weight: bold;
+}
+
+.helpSection a {
+  display: inline;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 3rem 5rem;
+    flex-direction: row;
+  }
+
+  .info {
+    max-width: 30vw;
+    text-align: start;
+  }
+
+  .helpSection {
+    padding-bottom: 0;
+  }
+}
