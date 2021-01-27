@@ -2,4 +2,4 @@ Tromsø strikkefestival ✨
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kristianeaw/tromso-strikkefestival)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6759eb4b-e73d-4ad0-9adc-7c7062682844/deploy-status)](https://app.netlify.com/sites/gallant-heisenberg-09bfe1/deploys)
