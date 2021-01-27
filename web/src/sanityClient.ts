@@ -48,7 +48,7 @@ export type RecentPostsResponse =
 
 export const fetchLatestPosts = async (): Promise<RecentPostsResponse> => {
   const response = await client.fetch(
-    `*[_type == "post"] | order(publishedAt desc) [0..5]`
+    `*[_type == "post"] | order(publishedAt desc) [0..4]`
   );
   if (response === null) {
     return { type: "ERROR" };
@@ -61,7 +61,7 @@ export const fetchLatestPosts = async (): Promise<RecentPostsResponse> => {
 
 export const fetchAllPosts = async (): Promise<RecentPostsResponse> => {
   const response = await client.fetch(
-    `*[_type == "post"]`
+    `*[_type == "post"] | order(publishedAt desc)`
   );
   if (response === null) {
     return { type: "ERROR" };

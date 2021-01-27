@@ -18,10 +18,8 @@ const Post = (props: PostResponse) => {
 
   const post = props.data;
 
-  console.log(props);
-
   return (
-    <div className="page">
+    <div>
       <Head>
         <title>{post.title} - Tromsø strikkefestival</title>
       </Head>
@@ -43,12 +41,11 @@ const Post = (props: PostResponse) => {
         </div>
 
         <div className={styles.articleBody}>
-
-        <BlockContent
-          blocks={post.body}
-          imageOptions={{ w: 320, h: 240, fit: "max" }}
-          {...client.config()}
-        />
+          <BlockContent
+            blocks={post.body}
+            imageOptions={{ w: 320, h: 240, fit: "max" }}
+            {...client.config()}
+          />
         </div>
       </article>
 

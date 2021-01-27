@@ -2,4 +2,4 @@ Tromsø strikkefestival ✨
 
 ## Deploy
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6759eb4b-e73d-4ad0-9adc-7c7062682844/deploy-status)](https://app.netlify.com/sites/gallant-heisenberg-09bfe1/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb974d0f-88c5-4f2e-be6d-07cb46ab53bd/deploy-status)](https://app.netlify.com/sites/objective-kalam-679e9a/deploys)
