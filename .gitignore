@@ -5,6 +5,8 @@ dist
 
 # web
 web/.next
+web/.env.local
+web/.env.production
 
 #misc
 out
