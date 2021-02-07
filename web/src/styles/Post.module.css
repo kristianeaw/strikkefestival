@@ -9,7 +9,7 @@
   line-height: 1.4;
 }
 
-.articleBody h1, .articleBody h2, .articleBody h3, .articleBody h4, .articleBody p {
+.articleBody h1, .articleBody h2, .articleBody h3, .articleBody h4, .articleBody p, .articleBody ul {
   padding-bottom: 1.4rem;
 }
 
@@ -37,6 +37,11 @@
 .articleBody a {
   display: inline;
   text-decoration: underline;
+}
+
+.articleBody ul {
+  list-style: disc;
+  margin-left: 1.2rem;
 }
 
 .image {
