@@ -9,9 +9,8 @@
   line-height: 1.4;
 }
 
-.articleBody h2, .articleBody h3, .articleBody h4 {
-  padding-top: 1.2rem;
-  padding-bottom: 0.3rem;
+.articleBody h1, .articleBody h2, .articleBody h3, .articleBody h4, .articleBody p {
+  padding-bottom: 1.4rem;
 }
 
 .articleBody h2 {
@@ -21,16 +20,10 @@
 
 .articleBody h3 {
   font-size: 1.2rem;
-  padding-top: 1rem;
 }
 
 .articleBody h4 {
   font-size: 1.1rem;
-  padding-top: 1rem;
-}
-
-.articleBody p {
-  padding-bottom: 1.2rem;
 }
 
 .articleBody strong {
